@@ -1,0 +1,789 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ProjektSklepGryWideo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\account\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\account\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\games\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\games\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\cartitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\cartitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\migrations\\20250122024236_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\migrations\\20250122024236_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\cartitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\cartitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\games\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\games\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\games\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\games\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\games\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\games\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\cartitems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\cartitems\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\cartitems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\cartitems\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\data\\gamestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\data\\gamestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\migrations\\gamestorecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\migrations\\gamestorecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GameStoreContext_4ebefa10_de29_4dea_b2ad_7a8dc6bcf374/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|e:\\projektsklepgrywideo\\projektsklepgrywideo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98FB1AB0-61EE-4196-BA8B-282DC695F2E4}|ProjektSklepGryWideo\\ProjektSklepGryWideo.csproj|solutionrelative:projektsklepgrywideo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Admin.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Account\\Admin.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Admin.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Account\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T04:48:00.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:43:32.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T00:40:53.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:54:33.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T04:15:27.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\CartItemsController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\CartItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:23:54.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\GamesController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwJEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:22:39.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T02:16:58.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\GameModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\GameModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\GameModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\GameModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:26:03.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Games\\Create.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Create.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Games\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:56:23.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Games\\Index.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Index.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Games\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:09:55.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T02:23:21.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\CartItems\\Create.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Create.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\CartItems\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:33:10.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:28:07.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\CartItems\\Edit.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Edit.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\CartItems\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:33:27.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\CartItems\\Index.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Index.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\CartItems\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:33:31.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250122024236_InitialCreate.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Migrations\\20250122024236_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Migrations\\20250122024236_InitialCreate.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Migrations\\20250122024236_InitialCreate.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Migrations\\20250122024236_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T02:42:36.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:23:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Users\\Index.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T02:56:26.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Users\\Create.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:49:23.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:14:54.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Users\\Details.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:35:18.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Games\\Details.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Details.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Games\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:34:19.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T00:49:31.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\OrderModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\OrderModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:27:14.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:34:52.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:34:57.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwCIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:26:37.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderItemModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\OrderItemModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\OrderItemModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\OrderItemModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\OrderItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:27:35.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:35:22.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:27:09.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:49:26.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Games\\Edit.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Edit.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Games\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:10:18.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Games\\Delete.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Games\\Delete.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Games\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:34:14.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T01:27:12.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\CartItems\\Details.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Details.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\CartItems\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:33:22.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\CartItems\\Delete.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\CartItems\\Delete.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\CartItems\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T03:33:16.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:40:46.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\UserModel.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\UserModel.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:24:46.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Models\\CartItem.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Models\\CartItem.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:26:47.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GameStoreContext.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Data\\GameStoreContext.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Data\\GameStoreContext.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Data\\GameStoreContext.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Data\\GameStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:36:54.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowJoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:22:04.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Program.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Program.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Program.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:32:34.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GameStoreContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Migrations\\GameStoreContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Migrations\\GameStoreContextModelSnapshot.cs",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Migrations\\GameStoreContextModelSnapshot.cs",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Migrations\\GameStoreContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:13:57.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GameStoreContext_4ebefa10_de29_4dea_b2ad_7a8dc6bcf374/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GameStoreContext_4ebefa10_de29_4dea_b2ad_7a8dc6bcf374/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-22T02:52:36.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\appsettings.json",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\appsettings.json",
+              "RelativeToolTip": "ProjektSklepGryWideo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T00:33:46.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T02:18:05.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProjektSklepGryWideo\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\ProjektSklepGryWideo\\ProjektSklepGryWideo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProjektSklepGryWideo\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T00:49:34.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

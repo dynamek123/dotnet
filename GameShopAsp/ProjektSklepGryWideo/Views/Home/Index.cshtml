@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="text-center">
+            <h1 class="display-4">Welcome Admin</h1>
+            <p>If you want to edit anything, just enter the Admin Panel.</p>.
+        </div>
+    }
+    else if (User.Identity.IsAuthenticated)
+{
+    
+    <div class="text-center">
+        <h1 class="display-4">Welcome in our online Game Store</h1>
+        <p>We have every single game you can imagine. Just find out.</p>.
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome in our online Game Store</h1>
+        <p>Please log in if you want to browse our store or make an order.</p>.
+    </div>
+}
+</div>
