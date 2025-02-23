@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -22,9 +23,23 @@ namespace ProjektSklepGryWideo.Controllers
         // GET: CartItems
         public async Task<IActionResult> Index()
         {
-            var gameStoreContext = _context.CartItems.Include(c => c.Game);
+            // Pobierz identyfikator zalogowanego użytkownika
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            // Jeśli użytkownik nie jest zalogowany, przekieruj na stronę logowania
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Pobierz elementy koszyka tylko dla zalogowanego użytkownika
+            var gameStoreContext = _context.CartItems
+                .Include(c => c.Game) // Dołącz dane gry
+                .Where(c => c.UserId.ToString() == userId); // Filtruj po UserId (zakładając, że UserId jest int, dlatego konwertujemy userId na string)
+
             return View(await gameStoreContext.ToListAsync());
         }
+
 
         // GET: CartItems/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -155,6 +170,53 @@ namespace ProjektSklepGryWideo.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize] // Ensures only logged-in users can access this method
+        public async Task<IActionResult> AddToCart(int gameId)
+        {
+            // Get the currently logged-in user's ID from claims
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var game = await _context.Games.FindAsync(gameId);
+            if (game == null)
+            {
+                return NotFound();
+            }
+
+            // Check if the game is already in the user's cart
+            var existingCartItem = await _context.CartItems
+                .FirstOrDefaultAsync(ci => ci.GameId == gameId && ci.Id== int.Parse(userId));
+
+            if (existingCartItem != null)
+            {
+                // If item exists, increase the quantity
+                existingCartItem.Quantity += 1;
+            }
+            else
+            {
+                // Otherwise, add a new item to the cart
+                var cartItem = new CartItem
+                {
+                    GameId = gameId,
+                    UserId = int.Parse(userId), // Store user ID
+                    Quantity = 1,
+                    Price = game.Price
+                };
+
+                _context.CartItems.Add(cartItem);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index", "CartItems"); // Redirect to cart page
+        }
+
 
         private bool CartItemExists(int id)
         {

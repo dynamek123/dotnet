@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using System.Linq.Expressions;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ProjektSklepGryWideo.Controllers
 {
@@ -105,18 +107,19 @@ namespace ProjektSklepGryWideo.Controllers
         [Authorize]
         public IActionResult Profile()
         {
-            var userId = HttpContext.Session.GetInt32("UserID");
-
-            // Pobieramy dane użytkownika z bazy danych na podstawie jego ID
-            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+        
+            var user = _context.Users.FirstOrDefault(u => u.Id == int.Parse(userId));
 
             if (user == null)
             {
-                // Jeśli użytkownik o tym ID nie istnieje, przekierowujemy do strony logowania
                 return RedirectToAction("Login", "Account");
             }
 
-            // Przekazujemy dane użytkownika do widoku
             return View(user);
         }
 

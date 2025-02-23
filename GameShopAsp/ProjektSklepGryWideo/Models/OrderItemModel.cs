@@ -8,9 +8,9 @@
         public int GameId { get; set; }
         public int OrderId { get; set; }
         public int Quantity { get; set; }
-        public decimal Price { get; set; } // Assuming Price is a decimal in Game model
+        public decimal Price { get; set; } 
 
-        public Game Game { get; set; } // Changed from object? to Game
+        public Game Game { get; set; }
     }
 
 }
