@@ -90,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/ProjektSklepGryWideo/ProjektSklepGryWideo/Views/Orders/AllOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEFsbE9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/ProjektSklepGryWideo/ProjektSklepGryWideo/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,6 +136,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/ProjektSklepGryWideo/ProjektSklepGryWideo/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektSklepGryWideo/ProjektSklepGryWideo/Views/Users/EditForUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdEZvclVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/ProjektSklepGryWideo/ProjektSklepGryWideo/Views/Users/Index.cshtml]

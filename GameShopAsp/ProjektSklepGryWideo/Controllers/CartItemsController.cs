@@ -23,20 +23,16 @@ namespace ProjektSklepGryWideo.Controllers
         // GET: CartItems
         public async Task<IActionResult> Index()
         {
-            // Pobierz identyfikator zalogowanego użytkownika
             var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
-            // Jeśli użytkownik nie jest zalogowany, przekieruj na stronę logowania
             if (string.IsNullOrEmpty(userId))
             {
                 return RedirectToAction("Login", "Account");
             }
 
-            // Pobierz elementy koszyka tylko dla zalogowanego użytkownika
             var gameStoreContext = _context.CartItems
-                .Include(c => c.Game) // Dołącz dane gry
-                .Where(c => c.UserId.ToString() == userId); // Filtruj po UserId (zakładając, że UserId jest int, dlatego konwertujemy userId na string)
-
+                .Include(c => c.Game) 
+                .Where(c => c.UserId.ToString() == userId); 
             return View(await gameStoreContext.ToListAsync());
         }
 
@@ -172,10 +168,9 @@ namespace ProjektSklepGryWideo.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize] // Ensures only logged-in users can access this method
+        [Authorize] 
         public async Task<IActionResult> AddToCart(int gameId)
         {
-            // Get the currently logged-in user's ID from claims
             var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrEmpty(userId))
@@ -189,22 +184,19 @@ namespace ProjektSklepGryWideo.Controllers
                 return NotFound();
             }
 
-            // Check if the game is already in the user's cart
             var existingCartItem = await _context.CartItems
                 .FirstOrDefaultAsync(ci => ci.GameId == gameId && ci.Id== int.Parse(userId));
 
             if (existingCartItem != null)
             {
-                // If item exists, increase the quantity
                 existingCartItem.Quantity += 1;
             }
             else
             {
-                // Otherwise, add a new item to the cart
                 var cartItem = new CartItem
                 {
                     GameId = gameId,
-                    UserId = int.Parse(userId), // Store user ID
+                    UserId = int.Parse(userId), 
                     Quantity = 1,
                     Price = game.Price
                 };
@@ -214,7 +206,7 @@ namespace ProjektSklepGryWideo.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "CartItems"); // Redirect to cart page
+            return RedirectToAction("Index", "Games"); 
         }
 
 
@@ -222,5 +214,50 @@ namespace ProjektSklepGryWideo.Controllers
         {
             return _context.CartItems.Any(e => e.Id == id);
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> PlaceOrder()
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var cartItems = await _context.CartItems
+                .Where(c => c.UserId.ToString() == userId)
+                .Include(c => c.Game)
+                .ToListAsync();
+
+            if (cartItems == null || !cartItems.Any())
+            {
+                return RedirectToAction("Index");
+            }
+
+            var order = new Order
+            {
+                UserId = int.Parse(userId),
+                OrderDate = DateTime.Now,
+                IsPaid = true,
+                IsDone = false,
+                OrderItems = cartItems.Select(c => new OrderItem
+                {
+                    GameId = c.GameId,
+                    Quantity = c.Quantity,
+                    Price = c.Price
+                }).ToList()
+            };
+
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+
+            _context.CartItems.RemoveRange(cartItems);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Orders");
+        }
+
     }
 }

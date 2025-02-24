@@ -5,7 +5,7 @@
     decimal sum = 0;
 }
 
-<h1>Index</h1>
+<h1>Cart</h1>
 
 <table class="table">
     <thead>
@@ -38,7 +38,7 @@
                     @Html.DisplayFor(modelItem => item.Quantity)
             </td>
             <td>
-                    @Html.DisplayFor(modelItem => item.Price)
+                    @Html.DisplayFor(modelItem => item.Price) PLN
             </td>
             <td>
                 
@@ -59,12 +59,12 @@
         <td></td>
         <td>Final Price: </td>
         <td>
-            @sum
+            @sum PLN
         </td>
        
         <td>
             <form asp-action="PlaceOrder" asp-controller="CartItems" method="post">
-                <button type="submit" class="btn btn-success">Place Order</button>
+                <button type="submit" class="btn btn-primary">Place Order</button>
             </form>
         </td>
     </tr>

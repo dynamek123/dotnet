@@ -25,8 +25,33 @@ namespace ProjektSklepGryWideo.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Orders.ToListAsync());
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var userOrders = _context.Orders
+                .Where(o => o.UserId.ToString() == userId)
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Game);
+
+            return View(await userOrders.ToListAsync());
         }
+        
+        [Authorize(Roles = "Admin")] 
+        public async Task<IActionResult> AllOrders()
+        {
+            var orders = await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Game) 
+                .ToListAsync();
+
+            return View(orders);
+        }
+
+
 
         // GET: Orders/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -45,7 +70,7 @@ namespace ProjektSklepGryWideo.Controllers
 
             return View(order);
         }
-
+        [Authorize(Roles = "Admin")]
         // GET: Orders/Create
         public IActionResult Create()
         {
@@ -57,7 +82,7 @@ namespace ProjektSklepGryWideo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,UserId,OrderDate")] Order order)
+        public async Task<IActionResult> Create([Bind("Id,UserId,OrderDate,IsPaid,IsDone")] Order order)
         {
             if (ModelState.IsValid)
             {
@@ -67,7 +92,7 @@ namespace ProjektSklepGryWideo.Controllers
             }
             return View(order);
         }
-
+        [Authorize(Roles = "Admin")]
         // GET: Orders/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -83,13 +108,13 @@ namespace ProjektSklepGryWideo.Controllers
             }
             return View(order);
         }
-
+        [Authorize(Roles = "Admin")]
         // POST: Orders/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,OrderDate")] Order order)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,OrderDate,IsPaid,IsDone")] Order order)
         {
             if (id != order.Id)
             {
@@ -118,7 +143,7 @@ namespace ProjektSklepGryWideo.Controllers
             }
             return View(order);
         }
-
+       
         // GET: Orders/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

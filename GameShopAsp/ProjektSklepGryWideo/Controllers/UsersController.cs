@@ -83,12 +83,39 @@ namespace ProjektSklepGryWideo.Controllers
             }
             return View(user);
         }
+        [Authorize]
+        public async Task<IActionResult> EditForUser(int id)
+        {
+            // Get the currently logged-in user's ID
+            var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int loggedInUserId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Redirect if the logged-in user tries to edit another user's profile
+            if (id != loggedInUserId)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Fetch the user from the database
+            var user = await _context.Users.FindAsync(loggedInUserId);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user);
+        }
 
         // POST: Users/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Password,Email,IsAdmin")] User user)
         {
             if (id != user.Id)
@@ -120,6 +147,59 @@ namespace ProjektSklepGryWideo.Controllers
             return View(user);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> EditForUser(int id, [Bind("FirstName,LastName,Password,Email")] User user)
+        {
+            // Get the logged-in user ID
+            var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int loggedInUserId))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Prevent users from modifying another user's data
+            if (id != loggedInUserId)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Fetch the actual user from the database
+            var existingUser = await _context.Users.FindAsync(loggedInUserId);
+            if (existingUser == null)
+            {
+                return NotFound();
+            }
+
+            // Update only the allowed fields
+            existingUser.FirstName = user.FirstName;
+            existingUser.LastName = user.LastName;
+            existingUser.Email = user.Email;
+            existingUser.Password = user.Password; // Remember to hash before saving
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(existingUser);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Users.Any(e => e.Id == loggedInUserId))
+                    {
+                        return NotFound();
+                    }
+                    throw;
+                }
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(user);
+        }
 
         // GET: Users/Delete/5
         public async Task<IActionResult> Delete(int? id)

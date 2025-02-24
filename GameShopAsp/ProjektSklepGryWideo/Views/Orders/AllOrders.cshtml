@@ -1,14 +1,15 @@
 ﻿@model IEnumerable<ProjektSklepGryWideo.Models.Order>
 
 @{
-    ViewData["Title"] = "My Orders";
+    ViewData["Title"] = "All Orders";
 }
 
-<h1>My Orders</h1>
+<h1>All Orders</h1>
 
 <table class="table">
     <thead>
         <tr>
+            <th>User ID</th>
             <th>Order Date</th>
             <th>Items</th>
             <th>Total Price</th>
@@ -19,6 +20,7 @@
         @foreach (var order in Model)
         {
             <tr>
+                <td>@order.UserId</td>
                 <td>@order.OrderDate.ToString("yyyy-MM-dd HH:mm")</td>
                 <td>
                     <ul>
@@ -30,8 +32,7 @@
                 </td>
                 <td>@order.OrderItems.Sum(i => i.Quantity * i.Price) PLN</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-primary">Details</a>
-                    <a asp-action="Delete" asp-route-id="@order.Id" class="btn btn-primary">Cancel</a>
+                    <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-info">Details</a>
                 </td>
             </tr>
         }
