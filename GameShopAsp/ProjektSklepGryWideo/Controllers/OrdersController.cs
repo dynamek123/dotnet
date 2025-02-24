@@ -121,29 +121,33 @@ namespace ProjektSklepGryWideo.Controllers
                 return NotFound();
             }
 
+            Console.WriteLine($"IsDone: {order.IsDone}"); // Logowanie wartości IsDone
+
             if (ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(order);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!OrderExists(order.Id))
+                
+                    try
                     {
-                        return NotFound();
+                        _context.Entry(order).State = EntityState.Modified;
+                        await _context.SaveChangesAsync();
                     }
-                    else
+                    catch (DbUpdateConcurrencyException)
                     {
-                        throw;
+                        if (!OrderExists(order.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
                     }
-                }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(AllOrders));
             }
-            return View(order);
+            
+           return RedirectToAction(nameof(AllOrders));
         }
-       
+
         // GET: Orders/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

@@ -20,7 +20,7 @@ builder.Services.AddSession(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// Add Authentication services (cookie-based authentication in this case)
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {

@@ -78,22 +78,21 @@ namespace ProjektSklepGryWideo.Controllers
                 if (existingUser != null)
                 {
                     ModelState.AddModelError("Email", "Email already in use.");
-                    return View(user); // Return view with error if email already exists
+                    return View(user); 
                 }
 
-                // If the AdminKey is correct (2025), set the user as an admin
                 if (AdminKey == "2025")
                 {
-                    user.IsAdmin = true; // Set user as admin
+                    user.IsAdmin = true; 
                 }
 
-                // Add new user to the database
+              
                 _context.Add(user);
                 _context.SaveChanges();
-                return RedirectToAction("Login"); // Redirect to login after successful registration
+                return RedirectToAction("Login"); 
             }
 
-            return View(user); // Return to register view if there were errors
+            return View(user); 
         }
 
         [Authorize]

@@ -86,7 +86,6 @@ namespace ProjektSklepGryWideo.Controllers
         [Authorize]
         public async Task<IActionResult> EditForUser(int id)
         {
-            // Get the currently logged-in user's ID
             var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int loggedInUserId))
@@ -94,7 +93,6 @@ namespace ProjektSklepGryWideo.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            // Redirect if the logged-in user tries to edit another user's profile
             if (id != loggedInUserId)
             {
                 return RedirectToAction("Index", "Home");
@@ -152,7 +150,6 @@ namespace ProjektSklepGryWideo.Controllers
         [Authorize]
         public async Task<IActionResult> EditForUser(int id, [Bind("FirstName,LastName,Password,Email")] User user)
         {
-            // Get the logged-in user ID
             var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int loggedInUserId))
@@ -160,24 +157,20 @@ namespace ProjektSklepGryWideo.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            // Prevent users from modifying another user's data
             if (id != loggedInUserId)
             {
                 return RedirectToAction("Index", "Home");
             }
 
-            // Fetch the actual user from the database
             var existingUser = await _context.Users.FindAsync(loggedInUserId);
             if (existingUser == null)
             {
                 return NotFound();
             }
-
-            // Update only the allowed fields
             existingUser.FirstName = user.FirstName;
             existingUser.LastName = user.LastName;
             existingUser.Email = user.Email;
-            existingUser.Password = user.Password; // Remember to hash before saving
+            existingUser.Password = user.Password; 
 
             if (ModelState.IsValid)
             {
